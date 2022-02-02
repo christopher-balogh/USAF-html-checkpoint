@@ -1,3 +1,52 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
-  font-size: 2em;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+
+  background: rgb(49, 50, 54);
+
+  padding:15px;
+}
+
+ul,li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#home li{
+  margin:5px;
+}
+
+#GMDB {
+  color: white;
+  font-size: 1.5em;
+  padding-right: 10px;
+}
+
+#home a{
+  color:white;
+  text-decoration: none;
+}
+
+#search input {
+  height:90%;
+  border-radius: 5px;
+  background-position-x: 10%;
+  padding-left: 10px;;
+}
+
+#search button{
+  height: 100%;
+  margin:0px;
+  border: 1px solid rgb(248, 186, 17);
+  border-radius: 2.5px;
+  background-color: rgb(49, 50, 54);
+  color: rgb(248, 186, 17);
 }
